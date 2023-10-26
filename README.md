@@ -1,66 +1,18 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank">
-    <img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" />
-  </a>
-</p>
+# LogMaster NestJS Mailer
 
-<p align="center">
-  A mailer module for Nest framework (node.js) using <a href="https://nodemailer.com/">Nodemailer</a> library
-</p>
+![GitHub License](https://img.shields.io/badge/license-MIT-green)
 
-<p align="center">
-  <a href="https://www.npmjs.com/org/nestjs-modules"><img src="https://img.shields.io/npm/v/@nestjs-modules/mailer.svg" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/org/nestjs-modules"><img src="https://img.shields.io/npm/l/@nestjs-modules/mailer.svg" alt="Package License" /></a>
-  <a href="https://www.npmjs.com/org/nestjs-modules"><img src="https://img.shields.io/npm/dm/@nestjs-modules/mailer.svg" alt="NPM Downloads" /></a>
-  <a href="https://opencollective.com/nest-modules#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-</p>
+LogMaster NestJS Mailer is a forked and enhanced version of the popular `@nestjs-modules/mailer` package tailored to address the issue related to missing partial headers in NestJS version 9 and `@nestjs-modules/mailer` version 1.8.*. This fork offers a seamless solution, making email template rendering with Handlebars a breeze, even in the latest NestJS environment.
 
-### Installation
+## Issue Fixed
 
-```sh
-npm install --save @nestjs-modules/mailer nodemailer
-npm install --save-dev @types/nodemailer
-#or
-yarn add @nestjs-modules/mailer nodemailer
-yarn add -D @types/nodemailer
-```
+The primary issue fixed in this fork:
+- **Partial Header Not Found:** This version addresses the problem where partial headers couldn't be located when using NestJS version 9 and `@nestjs-modules/mailer` version 1.8.*.
 
-**Hint:** handlebars and pug is an optional dependency, if you want to use the template, you must install it.
+## Key Features
 
-#### with npm
-```sh
-npm install --save handlebars
-#or
-npm install --save pug
-#or
-npm install --save ejs
-```
+- **NestJS Compatibility:** Enjoy email template rendering with Handlebars without compatibility issues in NestJS version 9.
 
-#### with yarn
-```sh
-yarn add handlebars
-#or
-yarn add pug
-#or
-yarn add ejs
-```
+- **Updated Dependencies:** Updated and compatible dependencies for a smooth experience with the latest NestJS version.
 
-### Documentation
-
-you can find all the documentation [here](https://nest-modules.github.io/mailer/) for the email module
-
-### Starter kit
-
-- [Sending email-template with outlook](https://github.com/yanarp/nestjs-mailer) - Starter kit, nestjs mailer implementation on outlook smtp with email-template
-
-### Contributing
-
-* [Cristiam Diaz](https://github.com/cdiaz)
-* [Eduardo Leal](https://github.com/eduardoleal)
-* [Juan Echeverry](https://github.com/juandav)
-* [Pat McGowan](https://github.com/p-mcgowan)
-* [Paweł Partyka](https://github.com/partyka95)
-
-### License
-
-MIT
+- **Reliable Email Delivery:** Continue using the powerful email delivery capabilities provided by `@nestjs-modules/mailer`.
